@@ -118,10 +118,4 @@ how a real external scanner would probe an app:
   marker appears in the response — which would only happen if the shell
   actually executed the injected command.
 
-## Extending this for your CV
 
-- Add more vulnerability classes: path traversal, insecure deserialization, SSRF
-- Add a severity-weighted score and export findings as JSON/HTML report
-- Turn the scanner into a GitHub Action that fails CI if new vulnerabilities appear
-- Add authenticated scanning (crawl behind a login)
-- Compare against a real tool like `sqlmap` or OWASP ZAP and write up the differences
